@@ -125,3 +125,7 @@ tab.forEach((el) => {
 3. Ecrire une fonction qui prend en argument un tableau et affiche les éléments du tableau dans l'ordre inverse
 
 4. Ecrire une fonction qui prend en argument un tableau et retourne la plus petite valeur du tableau.
+
+5. Ecrire une fonction qui prend en argument un tableau et affiche les éléments d'indice pair.
+
+6. Ecrire une fonction qui prend en argument un tableau et affiche tous les nombres impairs contenus dans le tableau.
