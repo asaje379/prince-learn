@@ -1,34 +1,9 @@
-import { func1 } from './app/func1.js';
-import { func2 } from './app/func2.js';
+import { sumArray } from './services/arrays/01.js';
 
-const type = +process.argv[2];
+const sum1 = sumArray([1, 2, 3]);
+const sum2 = sumArray([19, -2, 3]);
+const sum3 = sumArray([11, 22, 34, 12, 18, 0, 9]);
 
-/**
- * @param {number} type
- */
-function test(type) {
-  // if (type === 1) {
-  //   // Appeler func1
-  //   func1();
-  // } else if (type === 2) {
-  //   // Appeler func2
-  //   func2();
-  // } else {
-  //   console.log('Erreur');
-  // }
-
-  switch (type) {
-    case 1:
-      func1();
-      console.log('sqds');
-      break;
-
-    case 2:
-      funct2();
-      break;
-    default:
-      console.log('Erreur');
-  }
-}
-
-test(type);
+console.log(`sum1: ${sum1}`);
+console.log(`sum2: ${sum2}`);
+console.log(`sum3: ${sum3}`);

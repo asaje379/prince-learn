@@ -19,7 +19,7 @@ Pour bien comprendre les tableaux, nous allons faire un ensemble d'exercices :
 - algorithmes de tri d'un tableau (bubble sort, insertion sort, selection sort, quick sort, merge sort)
 - Dessiner une ligne
 - Dessiner un rectangle plein
-- Dessiner un reatangle creux
+- Dessiner un rectangle creux
 - Dessiner un triangle rectangle
 - Dessiner un triangle isocèle
 
